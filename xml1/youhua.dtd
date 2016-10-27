@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!ELEMENT 油画 (油画名称, 油画作者, 油画简介)>
+<!ELEMENT 油画名称 (#PCDATA)>
+<!ELEMENT 油画作者 (#PCDATA)>
+<!ELEMENT 油画简介 (#PCDATA)>
