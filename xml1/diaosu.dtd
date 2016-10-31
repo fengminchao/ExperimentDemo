@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!ELEMENT 雕塑 (雕塑名称, 雕塑作者, 雕塑简介)>
+<!ELEMENT 雕塑名称 (#PCDATA)>
+<!ELEMENT 雕塑作者 (#PCDATA)>
+<!ELEMENT 雕塑简介 (#PCDATA)>

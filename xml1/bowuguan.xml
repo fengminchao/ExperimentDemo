@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!--DOCTYPE 博物馆 SYSTEM "bowuguan.dtd"-->
+<!DOCTYPE 博物馆 SYSTEM "bowuguan.dtd" [
+<!ENTITY YH SYSTEM "youhua.xml">
+<!ENTITY DS SYSTEM "diaosu.xml">
+]>
+<!--"SYSTEM":表示DTD是本地的；"PUBLIC":表示引用的DTD来自网络 -->
+<博物馆>
+	
+	&YH;
+  &DS;
+
+</博物馆>

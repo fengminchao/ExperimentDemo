@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!ELEMENT 博物馆 (油画 |雕塑)*>
+<!ENTITY % yh SYSTEM "youhua.dtd">
+<!ENTITY % ds SYSTEM "diaosu.dtd">
+%yh;
+%ds;
